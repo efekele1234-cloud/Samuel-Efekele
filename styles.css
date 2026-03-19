@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color:orange;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+header, main, footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main{
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 42px;
+    color:goldenrod
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 20px;
+    color: blue;
+}
+header{
+    background-color:bisque;
+    text-align:center;
+    padding: 25px;
+}
+
+header h1{
+    font-size: 42px;
+    color:green;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 18px;
+    color:black;
+}
+
+img {
+    display: block;        
+    margin: 20px auto;     
+    max-width: 100%;       
+    height: auto;          
+}
+
+.menu-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.menu-table th,
+.menu-table td {
+    border: 1px;
+    color:blue;
+    padding: 12px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color:black;
+    color:blue;
+    font-size: 18px;
+}
+
+.menu-table tbody tr:nth-child(even){
+    background-color:black;
+}
+
+.menu-table tbody tr:nth-child(odd) {
+    background-color:black;
+}
+
+footer {
+    margin-top: 40px;        
+    padding: 15px;
+    background-color:navy; 
+    color: white;
+    text-align: center;     
+    font-size: 14px;  
+}
